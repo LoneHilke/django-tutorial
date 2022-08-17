@@ -1,0 +1,10 @@
+<form action="addrecord/" method="post">
+    {% csrf_token %}
+    Hobby:<br>
+    <input name="hobby">
+    <br><br>
+    Beskrivelse:<br>
+    <input name="beskriv">
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
